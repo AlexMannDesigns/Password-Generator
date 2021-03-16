@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: #90e0ef;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  margin-left: 10px 0 20px;
+}
+
+.container {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+  background-color: #03045e;
+  padding: 20px;
+  width: 350px;
+  max-width: 100%;
+}
+
+.result-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+
+.btn {
+  background-color: #023e8a;
+  color: #FFF;
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.btn-large {
+  display: block;
+  width: 100%;
+}
+
+.result-container .btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+
+.length {
+  font-family: inherit;
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+}
